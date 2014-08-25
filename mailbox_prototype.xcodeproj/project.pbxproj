@@ -12,6 +12,7 @@
 		DEC0321419AABA3600A70A6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEC0321219AABA3600A70A6A /* Main.storyboard */; };
 		DEC0321619AABA3600A70A6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEC0321519AABA3600A70A6A /* Images.xcassets */; };
 		DEC0322219AABA3600A70A6A /* mailbox_prototypeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0322119AABA3600A70A6A /* mailbox_prototypeTests.swift */; };
+		DEC0322C19AAD07900A70A6A /* MailboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEC0322B19AAD07900A70A6A /* MailboxViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +35,7 @@
 		DEC0321B19AABA3600A70A6A /* mailbox_prototypeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mailbox_prototypeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DEC0322019AABA3600A70A6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DEC0322119AABA3600A70A6A /* mailbox_prototypeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailbox_prototypeTests.swift; sourceTree = "<group>"; };
+		DEC0322B19AAD07900A70A6A /* MailboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MailboxViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 				DEC0320E19AABA3600A70A6A /* AppDelegate.swift */,
 				DEC0321019AABA3600A70A6A /* ViewController.swift */,
 				DEC0321219AABA3600A70A6A /* Main.storyboard */,
+				DEC0322B19AAD07900A70A6A /* MailboxViewController.swift */,
 				DEC0321519AABA3600A70A6A /* Images.xcassets */,
 				DEC0320C19AABA3600A70A6A /* Supporting Files */,
 			);
@@ -210,6 +213,7 @@
 			files = (
 				DEC0321119AABA3600A70A6A /* ViewController.swift in Sources */,
 				DEC0320F19AABA3600A70A6A /* AppDelegate.swift in Sources */,
+				DEC0322C19AAD07900A70A6A /* MailboxViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,6 +330,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = mailbox_prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -337,6 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = mailbox_prototype/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
